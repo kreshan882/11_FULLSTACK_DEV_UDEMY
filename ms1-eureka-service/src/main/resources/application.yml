@@ -1,0 +1,9 @@
+server:
+  port: 8761
+
+#client.fetch-registry == not a eureka client (@EnableEurekaServer)
+#client.register-with-eureka == not register with another eureke server
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false

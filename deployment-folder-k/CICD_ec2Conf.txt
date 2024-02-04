@@ -1,0 +1,2 @@
+54.169.220.190
+ssh -i "CICDsonar-ec2.pem" ec2-user@ec2-54-169-220-190.ap-southeast-1.compute.amazonaws.com

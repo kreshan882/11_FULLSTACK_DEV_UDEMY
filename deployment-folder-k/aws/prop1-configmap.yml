@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmap
+data:
+  restaurantdb_url: jdbc:mysql://mysql-db-instance.c508c0mq2kr1.ap-southeast-1.rds.amazonaws.com:3306/udemy_fs_restaurantdb
+  foodcataloguedb_url: jdbc:mysql://mysql-db-instance.c508c0mq2kr1.ap-southeast-1.rds.amazonaws.com:3306/udemy_fs_foodcataloguedb
+  userdb_url: jdbc:mysql://mysql-db-instance.c508c0mq2kr1.ap-southeast-1.rds.amazonaws.com:3306/udemy_fs_userdb
+  orderdb_url: mongodb+srv://admin:Password%231@udemy-cluster.v69bwyk.mongodb.net/?retryWrites=true&w=majority
+  eureka_service_address: http://eureka-0.eureka-service:8761/eureka
+
+  # orderdb_url: mongodb+srv://admin:codedecode@atlas-cluster.mqdj7js.mongodb.net/?retryWrites=true&w=majority
+  # restaurantdb: restaurantdb
+  # mysql-server: mysql-service    # The name of mysql service
+  # mysql-user-username: root
+  # citizen_database_url: jdbc:mysql://mysql-service:3306/citizendb
+  # foodcataloguedb_url: jdbc:mysql://mysql-service:3306/foodcataloguedb
+  # userdb_url: jdbc:mysql://mysql-service:3306/userdb
+  # foodcataloguedb: foodcataloguedb
+  # userdb: userdb
+  
