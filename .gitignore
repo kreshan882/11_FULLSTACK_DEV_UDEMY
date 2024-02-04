@@ -1,0 +1,14 @@
+
+# Compiled output
+angular-food-delivery-app/dist
+angular-food-delivery-app/.vscode/*
+
+
+angular-food-delivery-app/node_modules
+ms1-eureka-service/target
+ms2-restaurant-listing/target
+ms3-user-service/target
+ms4-food-catalogue/target
+ms5-order-service/target
+
+
